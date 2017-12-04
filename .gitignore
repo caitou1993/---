@@ -1,0 +1,7 @@
+node_modules/
+dist/
+_dist/
+resource/
+*.zip
+*dist
+.idea/

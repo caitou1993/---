@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>3D试衣</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="mask"></div>
+        <div class="modles-leftside-container">
+            <h1>切换模特</h1>
+            <hr>
+            <ul class="clearfix">
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle1_front.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle1_side.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle1_back.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle1_all.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle2_front.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle2_side.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle2_back.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle2_all.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle3_front.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle3_side.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle3_back.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle3_all.jpg">
+                </li>
+                <!--  -->
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle4_front.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle4_side.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle4_back.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle4_all.jpg">
+                </li>
+            </ul>
+        </div>
+        <h1>选择模特</h1>
+        <hr>
+        <div class="modles-prototype">
+            <ul class="clearfix">
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle1_front.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle1_side.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle1_back.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle1_all.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle2_front.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle2_side.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle2_back.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle2_all.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle3_front.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle3_side.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle3_back.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle3_all.jpg">
+                </li>
+                <!--  -->
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle4_front.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle4_side.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle4_back.jpg">
+                </li>
+                <li>
+                    <img src="./images/cpwz_images/modles_prototype/modle4_all.jpg">
+                </li>
+            </ul>
+        </div>
+        <div class="shop-patterns" id="patterns">
+            <div class="patterns-wrapper clearfix" id="listWrapper">
+                <!-- <div class="patterns">
+                    <div class="img"></div>
+                    <p class="number">#20001</p>
+                    <p class="price">￥10/码</p>
+                </div> -->
+            </div>
+            <div class="no-data" id="noData">
+                店铺暂无合适花型
+                <button id="goBabck" class="button button-block button-blue">返回</button>
+            </div>
+            <div class="seemore more" id="more">
+                查看更多
+            </div>
+            <div class="seemore" id="noMore">
+                没有更多了
+            </div>
+            <!-- <div style="height: 2000px;width: 200px;background: red"></div> -->
+        </div>
+        <div class="modle-container clearfix">
+            <div id="back">模特列表</div>
+            <div id="switch">切换模特</div>
+            <div id="uploadfilebtn">传图试衣</div>
+            <div id="choose">店内花型</div>
+            <input type="file" id="iptUpload" name="file" />
+            <!-- <div id="preview">
+          <img id="imghead" width=100 height=100 border=0>
+        </div>
+ -->
+            <div class="modle-img-wrapper" style="background-size: 25%">
+                <!--@author lyb 2017-11-30 15:12:36  -->
+                <img id="modlePic" src="">
+                <!--<img id="modlePic" src="./images/cpwz_images/modles/modle2_front.png">-->
+                <!-- <img src="" alt=""> -->
+            </div>
+            <div class="range">
+                <div>花纹大小</div>
+                <input id="range" type="range" step="5" max="100" min="5" value="25">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
